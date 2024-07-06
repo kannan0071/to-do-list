@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: white; font-weight:900;font-size:xx-large;font-family: Arial, Helvetica, sans-serif;">WORK TO-DOs</h1>
+        <p style="color: rgb(220, 220, 2); font-weight: bold; font-size:large;">Enter text into the input field to add items to your list.</p>
+        <p style="color: rgb(107, 250, 11);font-weight: bold; font-size:large;">Click the item to mark it as complete.</p>
+        <p style="color: rgba(0,24,66,0.502);font-weight: bold; font-size:large;">Click the "X" to remove the item from your list.</p>
+        <input type="text" id="new-item-input" placeholder="New item...">
+        <button id="addButton"><i class="bi bi-pencil"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+            <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/></svg>
+        </button>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
